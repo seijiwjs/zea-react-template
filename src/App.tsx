@@ -2,6 +2,7 @@ import React from 'react'
 import { ReflexContainer, ReflexSplitter, ReflexElement } from 'react-reflex'
 
 import { Viewport3D } from './Viewport3D'
+import { ZeaTreeViewWrapper } from './ZeaTreeViewWrapper'
 
 import 'react-reflex/styles.css'
 import './App.css'
@@ -13,7 +14,9 @@ class App extends React.Component {
         <ReflexElement size={50}>Header</ReflexElement>
         <ReflexElement>
           <ReflexContainer orientation="vertical">
-            <ReflexElement size={200}>Left Pane</ReflexElement>
+            <ReflexElement size={200}>
+              <ZeaTreeViewWrapper></ZeaTreeViewWrapper>
+            </ReflexElement>
             <ReflexSplitter />
             <ReflexElement>
               <Viewport3D></Viewport3D>
