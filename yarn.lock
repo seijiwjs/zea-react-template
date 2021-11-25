@@ -2269,7 +2269,7 @@
   resolved "https://registry.yarnpkg.com/@xtuc/long/-/long-4.2.2.tgz#d291c6a4e97989b5c61d9acf396ae4fe133a718d"
   integrity sha512-NuHqBY1PB/D8xU6s/thBgOAiAP7HOYDQ32+BFZILJ8ivkUkAHQnWfn6WhL79Owj1qmUnoN/YPhktdIoucipkAQ==
 
-"@zeainc/zea-cad@^4":
+"@zeainc/zea-cad@^4", "@zeainc/zea-cad@^4.0.1":
   version "4.0.1"
   resolved "https://registry.yarnpkg.com/@zeainc/zea-cad/-/zea-cad-4.0.1.tgz#81d182ff0a28e5ccac37638c24027c5b00076fa3"
   integrity sha512-R3K9ZB/LsoOuEJG+0jUoAnFZYg6KS+CPMlBoj6yw57j1eb0dQ/EYDO8L7rHXlg5zo6iFiWTndxYjb9v3luEpEw==
